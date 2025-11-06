@@ -1,0 +1,35 @@
+.card {
+  display: block;
+  width: 95%;
+  height: 320px;
+  object-fit: fill;
+  background-position: center;
+  color: var(--white);
+  border-radius: 10px;
+  align-content: end;
+  box-shadow: inset 0px -100px 100px 1px rgba(1, 1, 1, 0.87);
+}
+.card-content__image{
+    
+}
+.multiline-ellipsis {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.card-content {
+  display: grid;
+  min-height: 150px;
+  padding: 20px;
+  align-content: space-between;
+}
+.card-content p,
+.card-content a {
+  font-weight: 100;
+}
+.card-content__name,
+.card-content__text,
+.card-content__source {
+  color: var(--white);
+}

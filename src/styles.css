@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'fonts.css';
+@import 'reset.min.css';
+:root {
+  --green: #16993b;
+  --orange: #f4803f;
+  --white: #ffffff;
+  --grey: #fafafa;
+  --grey-50: #f1f3f7;
+  --grey-500: #78808d;
+  --grey-900: #2c323a;
+  --black: #000000;
+}
+
+body {
+  background-color: var(--grey-50);
+}
+
+p,
+h1,
+h2,
+h3,
+a,
+button,
+* {
+  font-family: 'SF-Pro-Display';
+  font-weight: 300;
+  color: var(--grey-900);
+}
+
+h2 {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: larger;
+}
+.wrapper {
+  margin: 10px;
+}
+.icon {
+  width: 24px;
+}
+.caret-down {
+  width: 10px;
+  height: 10px;
+  margin-inline: 5px;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
