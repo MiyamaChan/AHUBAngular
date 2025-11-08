@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component, signal, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -6,4 +6,10 @@ import { Component, signal } from '@angular/core';
   templateUrl: './header.html',
   styleUrl: './header.css',
 })
-export class Header {}
+export class Header {
+  @Output() onNotificationClick = new EventEmitter<string>();
+
+  onClickNotificationButton(e: any) {
+    this.onNotificationClick.emit(e);
+  }
+}

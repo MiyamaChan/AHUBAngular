@@ -12,4 +12,8 @@ import { Post } from './common-ui/post/post';
 })
 export class App {
   protected readonly title = signal('AHUBAngular');
+
+  openNotificationSideBar(e: any) {
+    console.log('@@@@@@', e);
+  }
 }

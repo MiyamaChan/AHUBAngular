@@ -29,40 +29,26 @@
         <div class="user__drop">
           <ul>
             <li>
-              <a href="#" class="drop__item"
-                ><img class="icon" src="/assets/imgs/icon/user.svg" />Мой профиль</a
-              >
+              <a href="#" class="drop__item"><img class="icon" src="/assets/imgs/icon/user.svg" />Мой профиль</a>
             </li>
             <li>
-              <a href="#" class="drop__item"
-                ><img class="icon" src="/assets/imgs/icon/users.svg" />Подписчики</a
-              >
+              <a href="#" class="drop__item"><img class="icon" src="/assets/imgs/icon/users.svg" />Подписчики</a>
             </li>
             <li>
-              <a href="#" class="drop__item"
-                ><img class="icon" src="/assets/imgs/icon/bookmark.svg" />Избранное</a
-              >
+              <a href="#" class="drop__item"><img class="icon" src="/assets/imgs/icon/bookmark.svg" />Избранное</a>
             </li>
             <li>
-              <a href="#" class="drop__item"
-                ><img class="icon" src="/assets/imgs/icon/file-plus.svg" />Подписки</a
-              >
+              <a href="#" class="drop__item"><img class="icon" src="/assets/imgs/icon/file-plus.svg" />Подписки</a>
             </li>
             <li>
-              <a href="#" class="drop__item"
-                ><img class="icon" src="/assets/imgs/icon/settings.svg" />Настройки</a
-              >
+              <a href="#" class="drop__item"><img class="icon" src="/assets/imgs/icon/settings.svg" />Настройки</a>
             </li>
             <li>
-              <a href="#" class="drop__item"
-                ><img class="icon" src="/assets/imgs/icon/book.svg" />AHUB Account
-                <img class="icon" src="/assets/imgs/icon/external-link.svg"
-              /></a>
+              <a href="#" class="drop__item"><img class="icon" src="/assets/imgs/icon/book.svg" />AHUB Account
+                <img class="icon" src="/assets/imgs/icon/external-link.svg" /></a>
             </li>
             <li>
-              <a href="#" class="drop__item"
-                ><img class="icon" src="/assets/imgs/icon/log-out.svg" /> Выйти</a
-              >
+              <a href="#" class="drop__item"><img class="icon" src="/assets/imgs/icon/log-out.svg" /> Выйти</a>
             </li>
             <li></li>
           </ul>
@@ -71,7 +57,7 @@
     </div>
     <div class="content-wrapper wrapper">
       <div class="header__notification mobile-drop">
-        <img class="icon" src="/assets/imgs/icon/bell.svg" />
+        <img class="icon" (click)="onClickNotificationButton($event)" src="/assets/imgs/icon/bell.svg" />
       </div>
       <div class="header__message">
         <img class="icon" src="/assets/imgs/icon/comment.svg" />
@@ -91,14 +77,11 @@
           <li><a href="#" class="drop__item">Люди</a></li>
           <li><a href="#" class="drop__item">События</a></li>
           <li>
-            <a href="#" class="drop__item"
-              ><img class="icon" src="/assets/imgs/icon/services.svg" />Сервисы</a
-            >
+            <a href="#" class="drop__item"><img class="icon" src="/assets/imgs/icon/services.svg" />Сервисы</a>
           </li>
           <li>
             <a href="#" class="drop__item">
-              <img class="icon" src="/assets/imgs/icon/ru-word.svg" /> Язык</a
-            >
+              <img class="icon" src="/assets/imgs/icon/ru-word.svg" /> Язык</a>
           </li>
         </ul>
       </nav>
