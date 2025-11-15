@@ -6,30 +6,11 @@
   justify-content: space-between;
 }
 
-.footer__content,
-.social {
+.footer__content {
   width: 20rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-
-.lang {
-  align-items: center;
-}
-
-.lang__logo {
-  width: 0.8rem;
-}
-
-.lang__name {
-  margin: auto;
-  width: 4.5rem;
-}
-
-.social__logo {
-  width: 1.7rem;
-  height: 1.7rem;
 }
 
 @media (max-width: 768px) {
@@ -43,10 +24,5 @@
     margin: auto;
     justify-content: space-between;
     height: 3rem;
-  }
-
-  .social {
-    margin: auto;
-    margin-top: 1rem;
   }
 }

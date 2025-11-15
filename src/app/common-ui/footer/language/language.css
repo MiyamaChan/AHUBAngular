@@ -1,0 +1,12 @@
+.lang {
+  align-items: center;
+}
+
+.lang__logo {
+  width: 0.8rem;
+}
+
+.lang__name {
+  margin: auto;
+  width: 4.5rem;
+}

@@ -1,0 +1,16 @@
+.social {
+  width: 20rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.social__logo {
+  width: 1.7rem;
+  height: 1.7rem;
+}
+@media (max-width: 768px) {
+  .social {
+    margin: auto;
+    margin-top: 1rem;
+  }
+}

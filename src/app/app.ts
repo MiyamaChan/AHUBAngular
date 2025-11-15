@@ -12,4 +12,18 @@ import { Post } from './common-ui/post/post';
 })
 export class App {
   protected readonly title = signal('AHUBAngular');
+
+  openNotificationSideBar(e: any) {
+    console.log('@@@@@@', e);
+    alert('Message: ' + e);
+  }
+
+  openMessageSideBar(a: any) {
+    console.log('@@@@@@', a);
+    alert('Message: ' + a);
+  }
+  openSearchSideBar(b: any) {
+    console.log('@@@@@@', b);
+    alert('Message: ' + b);
+  }
 }
