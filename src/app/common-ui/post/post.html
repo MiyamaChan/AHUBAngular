@@ -1,0 +1,9 @@
+<article class="card" [style.background-color]="post.image">
+  <div class="card-content">
+    <h3 class="card-content__name">{{ post.title }}</h3>
+    <p class="card-content__text multiline-ellipsis">
+      {{ post.content }}
+    </p>
+    <a class="card-content__source" [href]="post.source" target="_blank">источник новости</a>
+  </div>
+</article>
