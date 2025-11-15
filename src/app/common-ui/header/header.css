@@ -58,20 +58,10 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-.header__create,
-.header__user,
 .header__notification,
 .header__message,
-.header__searsh,
-.header__menu {
+.header__searsh {
   cursor: pointer;
-}
-.header__create,
-.header__user {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 110px;
 }
 .header__notification,
 .header__message,
@@ -95,79 +85,7 @@ header {
   border-radius: 100%;
   background-color: var(--green);
 }
-.user__img {
-  width: 2.5rem;
-  border-radius: 100%;
-}
-.create__drop,
-.user__drop {
-  display: none;
-  position: fixed;
-  position: absolute;
-  border-radius: 10px;
-  top: 5rem;
-  width: 13rem;
-}
-.create__drop::after,
-.user__drop::after {
-  content: '';
-  position: absolute;
-  left: 2rem;
-  top: -1rem;
-  border: 10px solid transparent;
-  border-bottom: 10px solid var(--white);
-}
-.header__menu {
-  display: flex;
-  background-color: var(--grey-50);
-  width: 120px;
-  padding: 10px;
-}
-.menu__content {
-  display: flex;
-  background-color: var(--grey-50);
-  height: 100%;
-  width: 100px;
-  padding-inline: 1rem;
-  align-items: center;
-  justify-content: space-around;
-}
-.menu__icon {
-  padding-right: 0.5rem;
-  width: 1.5rem;
-  height: 1.5rem;
-}
 
-.menu__wrapper {
-  display: flex;
-  justify-content: space-around;
-}
-.menu__drop {
-  display: none;
-  position: fixed;
-  position: absolute;
-  right: 0px;
-  top: 4rem;
-  border-end-start-radius: 10px;
-  width: 132px;
-}
-.menu-open {
-  background-color: var(--white);
-  box-shadow: -1px 0px 5px rgba(0, 0, 0, 0.192);
-}
-
-.menu__drop .icon,
-.user__drop .icon {
-  margin-right: 0.5rem;
-}
-.menu__drop-open,
-.create__drop-open,
-.user__drop-open {
-  z-index: 1000;
-  display: block;
-  background-color: var(--white);
-  box-shadow: -1px 4px 3px 0px rgba(0, 0, 0, 0.192), 1px 4px 3px 0px rgba(0, 0, 0, 0.192);
-}
 .drop__item {
   display: block;
   margin: 5px;

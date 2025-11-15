@@ -1,0 +1,15 @@
+<div class="header__menu">
+  <div class="menu__content">
+    <button class="menu-button" (click)="toggleMenu()">
+      <img class="menu__icon" src="assets/imgs/icon/menu.svg" />
+      <h2 class="menu__title mobile-drop">ЛЕНТА</h2>
+    </button>
+    @if (isMenuOpen) {
+    <nav class="menu__drop">
+      <ul>
+        <app-menu-item [items]="menuItems"></app-menu-item>
+      </ul>
+    </nav>
+    }
+  </div>
+</div>

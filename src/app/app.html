@@ -1,3 +1,7 @@
-<app-header></app-header>
+<app-header
+  (onNotificationClick)="openNotificationSideBar($event)"
+  (onMessageClick)="openMessageSideBar($event)"
+  (onSearchClick)="openSearchSideBar($event)"
+></app-header>
 <app-post></app-post>
 <app-footer></app-footer>

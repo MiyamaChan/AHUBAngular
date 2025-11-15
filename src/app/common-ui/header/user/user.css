@@ -1,0 +1,45 @@
+.header__user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 110px;
+}
+.user__img {
+  width: 2.5rem;
+  border-radius: 100%;
+}
+.user-button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border: none;
+  background-color: var(--white);
+}
+.user__drop {
+  position: fixed;
+  position: absolute;
+  border-radius: 10px;
+  top: 5rem;
+  width: 13rem;
+  background-color: var(--white);
+  box-shadow: -1px 4px 3px 0px rgba(0, 0, 0, 0.192), 1px 4px 3px 0px rgba(0, 0, 0, 0.192);
+}
+.user__drop::after {
+  content: '';
+  position: absolute;
+  left: 2rem;
+  top: -1rem;
+  border: 10px solid transparent;
+  border-bottom: 10px solid var(--white);
+}
+.user__drop .icon {
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 1200px) {
+  .mobile-drop {
+    display: none;
+  }
+}

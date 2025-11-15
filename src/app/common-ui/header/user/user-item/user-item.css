@@ -1,0 +1,11 @@
+.drop__item {
+  display: block;
+  margin: 5px;
+  padding: 1rem;
+  border-radius: 5px;
+  align-content: center;
+  display: flex;
+}
+.drop__item:hover {
+  background-color: var(--grey-50);
+}

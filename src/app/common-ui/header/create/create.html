@@ -1,0 +1,14 @@
+<div class="header__create">
+  <button class="create-button" (click)="toggleCreate()">
+    <h2 class="create__title">
+      СОЗДАТЬ <img class="icon caret-down" src="/assets/imgs/icon/caret-down.svg" />
+    </h2>
+  </button>
+  @if (isCreateOpen) {
+  <div class="create__drop">
+    <ul>
+      <app-create-item [items]="createItems"></app-create-item>
+    </ul>
+  </div>
+  }
+</div>
