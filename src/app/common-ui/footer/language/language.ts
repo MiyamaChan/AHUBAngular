@@ -5,7 +5,7 @@ import { LanguageItem } from './language-item/language-item';
   selector: 'app-language',
   imports: [LanguageItem],
   templateUrl: './language.html',
-  styleUrl: './language.css',
+  styleUrl: './language.scss',
 })
 export class Language {
   baseUrIcon = '/assets/imgs/icon/';

@@ -5,10 +5,8 @@
   border-radius: 5px;
   align-content: center;
   display: flex;
-}
-.drop__item:hover {
-  background-color: var(--grey-50);
-}
-.icon {
-  margin-right: 0.5rem;
+
+  &:hover {
+    background-color: var(--grey-50);
+  }
 }

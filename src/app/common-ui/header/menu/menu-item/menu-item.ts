@@ -4,7 +4,7 @@ import { Component, Input } from '@angular/core';
   selector: 'app-menu-item',
   imports: [],
   templateUrl: './menu-item.html',
-  styleUrl: './menu-item.css',
+  styleUrl: './menu-item.scss',
 })
 export class MenuItem {
   @Input() items: { id: number; url: string; icon: string; title: string }[] = [];

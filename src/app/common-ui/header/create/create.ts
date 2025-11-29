@@ -5,7 +5,7 @@ import { CreateItem } from './create-item/create-item';
   selector: 'app-create',
   imports: [CreateItem],
   templateUrl: './create.html',
-  styleUrl: './create.css',
+  styleUrl: './create.scss',
 })
 export class Create {
   isCreateOpen = false;

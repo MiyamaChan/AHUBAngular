@@ -4,7 +4,7 @@ import { Component, Input } from '@angular/core';
   selector: 'app-create-item',
   imports: [],
   templateUrl: './create-item.html',
-  styleUrl: './create-item.css',
+  styleUrl: './create-item.scss',
 })
 export class CreateItem {
   @Input() items: { id: number; url: string; title: string }[] = [];

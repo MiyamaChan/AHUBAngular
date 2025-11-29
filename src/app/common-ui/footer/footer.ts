@@ -6,7 +6,7 @@ import { Language } from './language/language';
   selector: 'app-footer',
   imports: [Social, Language],
   templateUrl: './footer.html',
-  styleUrl: './footer.css',
+  styleUrl: './footer.scss',
 })
 export class Footer {
   baseUrIcon = '/assets/imgs/icon/';

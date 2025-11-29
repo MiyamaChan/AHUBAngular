@@ -1,0 +1,28 @@
+.footer {
+  background-color: var(--grey-50);
+  display: flex;
+  height: 6rem;
+  align-items: center;
+  justify-content: space-between;
+
+  &__content {
+    width: 20rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    display: block;
+    height: 8rem;
+
+    &__content {
+      width: 90%;
+      margin: auto;
+      justify-content: space-between;
+      height: 3rem;
+    }
+  }
+}

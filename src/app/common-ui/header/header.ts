@@ -7,7 +7,7 @@ import { User } from './user/user';
   selector: 'app-header',
   imports: [Menu, Create, User],
   templateUrl: './header.html',
-  styleUrl: './header.css',
+  styleUrl: './header.scss',
 })
 export class Header {
   @Output() onNotificationClick = new EventEmitter<string>();
