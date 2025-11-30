@@ -1,0 +1,10 @@
+@for (item of items; track item.id) {
+<li>
+  <a [href]="item.url" class="drop__item">
+    @if (item.icon !=='') {
+    <img class="icon" [src]="item.icon" />
+    }
+    {{ item.title }}</a
+  >
+</li>
+}
