@@ -1,11 +1,11 @@
 import { Component, EventEmitter, Output, signal } from '@angular/core';
 import { Menu } from './menu/menu';
 import { Create } from './create/create';
-import { User } from './user/user';
+import { Profile } from './profile/profile';
 
 @Component({
   selector: 'app-header',
-  imports: [Menu, Create, User],
+  imports: [Menu, Create, Profile],
   templateUrl: './header.html',
   styleUrl: './header.scss',
 })

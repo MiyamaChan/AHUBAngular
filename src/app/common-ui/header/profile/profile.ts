@@ -1,16 +1,16 @@
 import { Component } from '@angular/core';
-import { UserItem } from './user-item/user-item';
+import { ProfileItem } from './profile-item/profile-item';
 
 @Component({
-  selector: 'app-user',
-  imports: [UserItem],
-  templateUrl: './user.html',
-  styleUrl: './user.scss',
+  selector: 'app-profile',
+  imports: [ProfileItem],
+  templateUrl: './profile.html',
+  styleUrl: './profile.scss',
 })
-export class User {
-  isUserOpen = false;
+export class Profile {
+  isProfileOpen = false;
 
-  userItems = [
+  profileItems = [
     { id: 1, url: '#', title: 'Мой профиль', icon: '/assets/imgs/icon/user.svg' },
     { id: 2, url: '#', title: 'Подписчики', icon: '/assets/imgs/icon/users.svg' },
     { id: 3, url: '#', title: 'Избранное', icon: '/assets/imgs/icon/bookmark.svg' },
@@ -20,7 +20,7 @@ export class User {
     { id: 7, url: '#', title: 'Выйти', icon: '/assets/imgs/icon/log-out.svg' },
   ];
 
-  ToggleUser() {
-    this.isUserOpen = !this.isUserOpen;
+  toggleProfile() {
+    this.isProfileOpen = !this.isProfileOpen;
   }
 }

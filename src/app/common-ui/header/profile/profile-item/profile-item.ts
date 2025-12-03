@@ -1,11 +1,11 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-user-item',
+  selector: 'app-profile-item',
   imports: [],
-  templateUrl: './user-item.html',
-  styleUrl: './user-item.scss',
+  templateUrl: './profile-item.html',
+  styleUrl: './profile-item.scss',
 })
-export class UserItem {
+export class ProfileItem {
   @Input() items: { id: number; url: string; title: string; icon: string }[] = [];
 }

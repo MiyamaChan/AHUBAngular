@@ -12,9 +12,9 @@ export class Footer {
   baseUrIcon = '/assets/imgs/icon/';
 
   socialIcons = [
-    { id: 1, url: '#', img: `${this.baseUrIcon}twitter.png` },
-    { id: 1, url: '#', img: `${this.baseUrIcon}instagram.png` },
-    { id: 1, url: '#', img: `${this.baseUrIcon}facebook.png` },
-    { id: 1, url: '#', img: `${this.baseUrIcon}linkedin.png` },
+    { id: 1, url: '#', img: `/assets/imgs/icon/twitter.png` },
+    { id: 1, url: '#', img: `/assets/imgs/icon/instagram.png` },
+    { id: 1, url: '#', img: `/assets/imgs/icon/facebook.png` },
+    { id: 1, url: '#', img: `/assets/imgs/icon/linkedin.png` },
   ];
 }

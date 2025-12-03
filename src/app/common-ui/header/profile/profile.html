@@ -1,12 +1,12 @@
 <div class="header__user">
-  <button class="user-button" (click)="ToggleUser()">
+  <button class="user-button" (click)="toggleProfile()">
     <img class="user__img" src="/assets/imgs/avatar.png" />
     <img class="icon caret-down" src="/assets/imgs/icon/caret-down.svg" />
   </button>
-  @if (isUserOpen) {
+  @if (isprofileOpen) {
   <div class="user__drop">
     <ul>
-      <app-user-item [items]="userItems"></app-user-item>
+      <app-profile-item [items]="profileItems"></app-profile-item>
     </ul>
   </div>
   }
